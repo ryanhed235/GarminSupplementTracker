@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.SupplementListString" title="@Strings.SupplementListTitle" prompt="@Strings.SupplementListPrompt">
+        <settingConfig type="alphaNumeric" maxLength="250" />
+    </setting>
+    <setting propertyKey="@Properties.WebhookUrl" title="@Strings.WebhookUrlTitle" prompt="@Strings.WebhookUrlPrompt">
+        <settingConfig type="alphaNumeric" maxLength="250" />
+    </setting>
+</settings>

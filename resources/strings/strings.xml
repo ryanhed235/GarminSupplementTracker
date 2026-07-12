@@ -1,0 +1,7 @@
+<strings>
+    <string id="AppName">Supplements</string>
+    <string id="SupplementListTitle">Supplements (Comma Separated)</string>
+    <string id="SupplementListPrompt">E.g. Creatine, Protein</string>
+    <string id="WebhookUrlTitle">Export Webhook URL</string>
+    <string id="WebhookUrlPrompt">Your Google Apps Script URL</string>
+</strings>

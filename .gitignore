@@ -1,0 +1,21 @@
+# Garmin Connect IQ
+bin/
+gen/
+*.prg
+*.debug.xml
+*.jungle
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Any developer keys!
+*.der
