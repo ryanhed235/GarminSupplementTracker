@@ -18,6 +18,9 @@ If you want the watch to push your supplement logs to the cloud, you need to set
 1. Open a new or existing **Google Sheet**.
 2. Name the first column `Date` (leave the rest of the columns blank; the script will automatically generate headers for your supplements as they come in).
 
+> [!NOTE]
+> To keep the data clean and consistent, the app exports all supplement values to the spreadsheet in **milligrams (mg)**. For example, if you log 5g of Creatine on your watch, it will appear as 5000 in your sheet.
+
 ### Step 2: Deploy the Webhook
 1. In your Google Sheet top menu, click **Extensions > Apps Script**.
 2. Delete any existing code in the editor, and paste the following script:
