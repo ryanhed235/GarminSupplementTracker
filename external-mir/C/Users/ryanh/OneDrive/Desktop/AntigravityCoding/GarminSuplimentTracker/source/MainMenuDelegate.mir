@@ -325,7 +325,7 @@ C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_
         %tmp.4 = getv %tmp.3 :Properties;
         symbol [ getValue %tmp.5 48 41 49 ];
         %tmp.5 = getv function %tmp.4 :getValue;
-        %tmp.6 = "WebhookUrl";
+        %tmp.6 = "ExportUrl";
         %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
         lputv %url.1 %tmp.7;
         symbol [ url %url.1 48 12 15 ];
@@ -349,7 +349,7 @@ C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_
         %tmp.10 = getm $.Toybox.System;
         symbol [ println %tmp.11 50 19 26 ];
         %tmp.11 = getv function %tmp.10 :println;
-        %tmp.12 = "WebhookUrl property not found.";
+        %tmp.12 = "ExportUrl property not found.";
         invoke %tmp.10 %tmp.11(%tmp.12);
 C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_MainMenuDelegate_mc_49_20_51_8_stop:
         jsr @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_MainMenuDelegate_mc_47_8_51_8_finally;

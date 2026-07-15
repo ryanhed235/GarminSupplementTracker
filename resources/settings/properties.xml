@@ -1,4 +1,4 @@
 <properties>
-    <property id="SupplementListString" type="string">Creatine, Protein</property>
-    <property id="WebhookUrl" type="string"></property>
+  <property id="SupplementListString" type="string">Creatine, Protein</property>
+  <property id="ExportUrl" type="string">https://script.google.com/macros/s/AKfycbyQlNvINhHshbQ7j7oZQWwOH6ZvKjoEhqzwffIkEi4XkSKBLqinXjema53sfqpniLs7/exec</property>
 </properties>

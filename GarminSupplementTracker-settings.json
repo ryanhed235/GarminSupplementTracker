@@ -15,7 +15,7 @@
     "configMax" : null,
     "configMaxLength" : 250
   }, {
-    "key" : "WebhookUrl",
+    "key" : "ExportUrl",
     "valueType" : "string",
     "defaultValue" : "https://script.google.com/macros/s/AKfycbyQlNvINhHshbQ7j7oZQWwOH6ZvKjoEhqzwffIkEi4XkSKBLqinXjema53sfqpniLs7/exec",
     "configTitle" : "WebhookUrlTitle",

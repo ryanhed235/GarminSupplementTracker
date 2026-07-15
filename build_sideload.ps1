@@ -23,7 +23,7 @@ if (!(Test-Path $DevKeyPath)) {
 # Update properties.xml
 $propertiesPath = ".\resources\settings\properties.xml"
 $xml = [xml](Get-Content $propertiesPath)
-$property = $xml.properties.property | Where-Object { $_.id -eq 'WebhookUrl' }
+$property = $xml.properties.property | Where-Object { $_.id -eq 'ExportUrl' }
 if ($property) {
     $property.InnerText = $WebhookUrl
     $xml.Save((Convert-Path $propertiesPath))

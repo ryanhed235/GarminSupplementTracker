@@ -45,9 +45,9 @@ class MainMenuDelegate extends WatchUi.Menu2InputDelegate {
     function syncData() as Void {
         var url = null;
         try {
-            url = Application.Properties.getValue("WebhookUrl");
+            url = Application.Properties.getValue("ExportUrl");
         } catch (e) {
-            System.println("WebhookUrl property not found.");
+            System.println("ExportUrl property not found.");
         }
         
         if (url == null || url.length() < 10) {
