@@ -1,0 +1,289 @@
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Application,2,14,25]; @symbol_importdef<2> = [Storage,2,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 6; @symbol_classdef = [ManageActionDelegate,6,6,26]; @symbol_extends<0> = [WatchUi,6,35,42]; @symbol_extends<1> = [Menu2InputDelegate,6,43,61]; ]
+class ManageActionDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 8; @position = 16; @symbol_vardef = [_targetId,8,16,25]; @symbol_type<0> = [String,8,29,35]; ]
+    private
+    var _targetId as String;
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; @symbol_param<0> = [targetId,10,24,32]; @symbol_param<0>_type<0> = [String,10,36,42]; ]
+    function initialize(targetId as String) as Void {
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_10_44_13_4_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 11 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 11 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 11 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 12 8 ]
+        %tmp.4 = lgetv %targetId;
+        symbol [ targetId %tmp.4 12 20 28 ];
+        symbol [ _targetId ? 12 8 17 ];
+        putv self :_targetId %tmp.4;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_10_44_13_4_stop:
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 15; @symbol_functiondef = [onSelect,15,13,21]; @symbol_param<0> = [item,15,22,26]; @symbol_param<0>_type<0> = [WatchUi,15,30,37]; @symbol_param<0>_type<1> = [MenuItem,15,38,46]; ]
+    function onSelect(item as WatchUi.MenuItem) as Void {
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_15_56_43_4_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 16 8 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_15_56_43_4_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_15_56_43_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 16 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 16 17 21 ];
+        symbol [ getId %tmp.2 16 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = as %tmp.3 String;
+        symbol [ String %tmp.4 16 33 39 ];
+        lputv %id.1 %tmp.4;
+        symbol [ id %id.1 16 12 14 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 18 8 ]
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_8_42_8_if_stmt:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_12_18_41_begin:
+        %tmp.5 = lgetv %id.1;
+        symbol [ id %tmp.5 18 12 14 ];
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_8_42_8_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_26_18_41_true:
+        %tmp.8 = lgetv %id.1;
+        symbol [ id %tmp.8 18 26 28 ];
+        %tmp.9 = as %tmp.8 { (!Null) };
+        symbol [ length %tmp.10 18 29 35 ];
+        %tmp.10 = getv function %tmp.9 :length;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = 7;
+        %tmp.13 = gte %tmp.11 %tmp.12;
+        push %tmp.13;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_26_18_41_end:
+        %tmp.14 = phi [%tmp.7 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_12_18_41_begin] [%tmp.13 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_26_18_41_true] [%tmp.14 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_26_18_41_end];
+        bf %tmp.14 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_8_42_8_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_8_42_8_if_true:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_44_42_8_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 19 12 ]
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_12_41_12_if_stmt:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_16_19_71_begin:
+        %tmp.15 = lgetv %id.1;
+        symbol [ id %tmp.15 19 16 18 ];
+        %tmp.16 = as %tmp.15 { (!Null) };
+        symbol [ length %tmp.17 19 19 25 ];
+        %tmp.17 = getv function %tmp.16 :length;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        %tmp.19 = 7;
+        %tmp.20 = gte %tmp.18 %tmp.19;
+        bf %tmp.20 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_12_41_12_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_36_19_71_true:
+        %tmp.21 = lgetv %id.1;
+        symbol [ id %tmp.21 19 36 38 ];
+        %tmp.22 = as %tmp.21 { (!Null) };
+        symbol [ substring %tmp.23 19 39 48 ];
+        %tmp.23 = getv function %tmp.22 :substring;
+        %tmp.24 = 0;
+        %tmp.25 = 7;
+        %tmp.26 = invoke %tmp.22 %tmp.23(%tmp.24, %tmp.25);
+        symbol [ equals %tmp.27 19 55 61 ];
+        %tmp.27 = getv function %tmp.26 :equals;
+        %tmp.28 = "delete_";
+        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
+        push %tmp.29;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_36_19_71_end:
+        %tmp.30 = phi [%tmp.20 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_16_19_71_begin] [%tmp.29 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_36_19_71_true] [%tmp.30 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_36_19_71_end];
+        bf %tmp.30 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_12_41_12_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_12_41_12_if_true:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_74_41_12_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 20 16 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_74_41_12_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_74_41_12_stop" ]
+        %supplements.2 = local;
+        symbol [ supplements %supplements.2 20 20 31 ];
+        symbol [ Storage %tmp.31 20 34 41 ];
+        %tmp.31 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.32 20 42 50 ];
+        %tmp.32 = getv function %tmp.31 :getValue;
+        %tmp.33 = "supplements";
+        %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
+        lputv %supplements.2 %tmp.34;
+        symbol [ supplements %supplements.2 20 20 31 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 21 16 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_74_41_12_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_74_41_12_stop" ]
+        %suppsArray.3 = local;
+        symbol [ suppsArray %suppsArray.3 21 20 30 ];
+        %tmp.35 = newa 0;
+        lputv %suppsArray.3 %tmp.35;
+        symbol [ suppsArray %suppsArray.3 21 20 30 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 22 16 ]
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_16_34_16_if_stmt:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_20_22_66_begin:
+        %tmp.36 = lgetv %supplements.2;
+        symbol [ supplements %tmp.36 22 20 31 ];
+        %tmp.37 = null;
+        %tmp.38 = ne %tmp.36 %tmp.37;
+        bf %tmp.38 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_16_34_16_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_43_22_66_true:
+        %tmp.39 = lgetv %supplements.2;
+        symbol [ supplements %tmp.39 22 43 54 ];
+        %tmp.40 = as %tmp.39 { (!Null) };
+        symbol [ Array %tmp.42 22 66 71 ];
+        %tmp.42 = getv ? :Array;
+        %tmp.43 = isa %tmp.40 %tmp.42;
+        push %tmp.43;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_43_22_66_end:
+        %tmp.44 = phi [%tmp.38 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_20_22_66_begin] [%tmp.43 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_43_22_66_true] [%tmp.44 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_43_22_66_end];
+        bf %tmp.44 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_16_34_16_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_16_34_16_if_true:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_73_34_16_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 23 20 ]
+        %tmp.45 = lgetv %supplements.2;
+        symbol [ supplements %tmp.45 23 33 44 ];
+        %tmp.46 = as %tmp.45 { (Array) && (!Null) };
+        %tmp.47 = as %tmp.46 Array;
+        symbol [ Array %tmp.47 23 48 53 ];
+        lputv %suppsArray.3 %tmp.47;
+        symbol [ suppsArray %suppsArray.3 23 20 30 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 26 20 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_73_34_16_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_73_34_16_stop" ]
+        %newArray.4 = local;
+        symbol [ newArray %newArray.4 26 24 32 ];
+        %tmp.48 = newa 0;
+        lputv %newArray.4 %tmp.48;
+        symbol [ newArray %newArray.4 26 24 32 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 27 20 ]
+        for @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_test @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_incr @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_init:
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_begin" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_end" ]
+        %i.5 = local;
+        symbol [ i %i.5 27 29 30 ];
+        %tmp.49 = 0;
+        lputv %i.5 %tmp.49;
+        symbol [ i %i.5 27 29 30 ];
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_test:
+        %tmp.50 = lgetv %i.5;
+        symbol [ i %tmp.50 27 36 37 ];
+        %tmp.51 = lgetv %suppsArray.3;
+        symbol [ suppsArray %tmp.51 27 40 50 ];
+        symbol [ size %tmp.52 27 51 55 ];
+        %tmp.52 = getv function %tmp.51 :size;
+        %tmp.53 = invoke %tmp.51 %tmp.52();
+        %tmp.54 = lt %tmp.50 %tmp.53;
+        bf %tmp.54 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_begin:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_64_32_20_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 28 24 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_64_32_20_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_64_32_20_stop" ]
+        %supp.6 = local;
+        symbol [ supp %supp.6 28 28 32 ];
+        %tmp.55 = lgetv %suppsArray.3;
+        symbol [ suppsArray %tmp.55 28 35 45 ];
+        %tmp.56 = lgetv %i.5;
+        symbol [ i %tmp.56 28 46 47 ];
+        %tmp.57 = agetv %tmp.55 %tmp.56;
+        %tmp.58 = as %tmp.57 Dictionary;
+        symbol [ Dictionary %tmp.58 28 52 62 ];
+        lputv %supp.6 %tmp.58;
+        symbol [ supp %supp.6 28 28 32 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 29 24 ]
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_24_31_24_if_stmt:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_28_29_72_begin:
+        %tmp.59 = lgetv %supp.6;
+        symbol [ supp %tmp.59 29 28 32 ];
+        %tmp.60 = null;
+        %tmp.61 = ne %tmp.59 %tmp.60;
+        bf %tmp.61 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_24_31_24_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_44_29_72_true:
+        %tmp.62 = lgetv %supp.6;
+        symbol [ supp %tmp.62 29 45 49 ];
+        %tmp.63 = as %tmp.62 { (!Null) };
+        %tmp.64 = "id";
+        %tmp.65 = agetv %tmp.63 %tmp.64;
+        symbol [ equals %tmp.66 29 56 62 ];
+        %tmp.66 = getv function %tmp.65 :equals;
+        symbol [ _targetId %tmp.68 29 63 72 ];
+        %tmp.68 = getv ? :_targetId;
+        %tmp.69 = invoke %tmp.65 %tmp.66(%tmp.68);
+        %tmp.70 = not %tmp.69;
+        push %tmp.70;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_44_29_72_end:
+        %tmp.71 = phi [%tmp.61 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_28_29_72_begin] [%tmp.70 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_44_29_72_true] [%tmp.71 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_44_29_72_end];
+        bf %tmp.71 @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_24_31_24_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_24_31_24_if_true:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_75_31_24_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 30 28 ]
+        %tmp.72 = lgetv %newArray.4;
+        symbol [ newArray %tmp.72 30 28 36 ];
+        symbol [ add %tmp.73 30 37 40 ];
+        %tmp.73 = getv function %tmp.72 :add;
+        %tmp.74 = lgetv %supp.6;
+        symbol [ supp %tmp.74 30 41 45 ];
+        %tmp.75 = as %tmp.74 { (!Null) };
+        invoke %tmp.72 %tmp.73(%tmp.75);
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_75_31_24_stop:
+        goto @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_24_31_24_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_29_24_31_24_if_end:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_64_32_20_stop:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_incr:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 27 ]
+        %tmp.78 = lgetv %i.5;
+        symbol [ i %tmp.78 27 59 60 ];
+        %tmp.79 = add %tmp.78 1;
+        lputv %i.5 %tmp.79;
+        symbol [ i %i.5 27 59 60 ];
+        goto @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_test;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_27_20_32_20_for_end:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 33 20 ]
+        symbol [ Storage %tmp.80 33 20 27 ];
+        %tmp.80 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.81 33 28 36 ];
+        %tmp.81 = getv function %tmp.80 :setValue;
+        %tmp.82 = "supplements";
+        %tmp.83 = lgetv %newArray.4;
+        symbol [ newArray %tmp.83 33 52 60 ];
+        invoke %tmp.80 %tmp.81(%tmp.82, %tmp.83);
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_73_34_16_stop:
+        goto @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_16_34_16_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_22_16_34_16_if_end:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 36 16 ]
+        symbol [ MenuBuilder %tmp.85 36 16 27 ];
+        %tmp.85 = getv ? :MenuBuilder;
+        symbol [ refreshManageMenu %tmp.86 36 28 45 ];
+        %tmp.86 = getv function %tmp.85 :refreshManageMenu;
+        invoke %tmp.85 %tmp.86();
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 37 16 ]
+        symbol [ MenuBuilder %tmp.88 37 16 27 ];
+        %tmp.88 = getv ? :MenuBuilder;
+        symbol [ refreshMainMenu %tmp.89 37 28 43 ];
+        %tmp.89 = getv function %tmp.88 :refreshMainMenu;
+        invoke %tmp.88 %tmp.89();
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc" 40 16 ]
+        symbol [ WatchUi %tmp.90 40 16 23 ];
+        %tmp.90 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.91 40 24 31 ];
+        %tmp.91 = getv function %tmp.90 :popView;
+        symbol [ WatchUi %tmp.92 40 32 39 ];
+        %tmp.92 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.93 40 40 55 ];
+        %tmp.93 = getv %tmp.92 :SLIDE_IMMEDIATE;
+        invoke %tmp.90 %tmp.91(%tmp.93);
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_74_41_12_stop:
+        goto @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_12_41_12_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_19_12_41_12_if_end:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_44_42_8_stop:
+        goto @C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_8_42_8_if_end;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_18_8_42_8_if_end:
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_ManageActionDelegate_mc_15_56_43_4_stop:
+    }
+}
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\ManageActionDelegate.mc"; @line = 1; ]
+<init> {
+}

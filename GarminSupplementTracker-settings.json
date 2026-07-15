@@ -1,0 +1,43 @@
+{
+  "settings" : [ {
+    "key" : "SupplementListString",
+    "valueType" : "string",
+    "defaultValue" : "Creatine, Protein",
+    "configTitle" : "SupplementListTitle",
+    "configPrompt" : "SupplementListPrompt",
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 250
+  }, {
+    "key" : "WebhookUrl",
+    "valueType" : "string",
+    "defaultValue" : "https://script.google.com/macros/s/AKfycbyQlNvINhHshbQ7j7oZQWwOH6ZvKjoEhqzwffIkEi4XkSKBLqinXjema53sfqpniLs7/exec",
+    "configTitle" : "WebhookUrlTitle",
+    "configPrompt" : "WebhookUrlPrompt",
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 250
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "SupplementListPrompt" : "E.g. Creatine, Protein",
+      "WebhookUrlTitle" : "Export Webhook URL",
+      "WebhookUrlPrompt" : "Your Google Apps Script URL",
+      "SupplementListTitle" : "Supplements (Comma Separated)",
+      "AppName" : "Supplements"
+    }
+  }
+}

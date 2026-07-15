@@ -87,10 +87,18 @@ function doPost(e) {
 6. Click **Deploy** (you will have to authorize access to your Google account).
 7. Copy the **Web app URL** it generates for you.
 
-### Step 3: Link the Watch
+### Step 3: Link the Watch (Store vs Sideload)
+
+**If downloaded from the Connect IQ Store:**
 1. Open the **Garmin Connect** app on your phone.
 2. Navigate to your Watch Settings > Activities & Apps > Supplement Tracker > Settings.
-3. Paste the **Web app URL** into the `Export Webhook URL` field.
-4. Save the settings.
+3. Paste the **Web app URL** into the `Export Webhook URL` field and save.
+
+**If Sideloaded via USB:**
+Since Garmin Connect hides settings for sideloaded apps, you must hardcode the URL into the app's source code before building. We've included a handy script to automate this for you:
+1. Open PowerShell and run `.\build_sideload.ps1`
+2. When prompted, paste your **Web app URL** and the path to your Garmin Developer Key.
+3. The script will automatically inject your URL and build a fresh `.prg` file. 
+4. Drop the resulting `.prg` file into your watch's `GARMIN/APPS` folder over USB.
 
 You're done! Scroll to the bottom of the main menu on your watch and tap **Sync** to beam your offline records straight to the spreadsheet. If successful, the watch will vibrate once. If it fails, it will buzz three times rapidly and preserve your history to try again later.

@@ -18,7 +18,15 @@ module MenuBuilder {
             for (var i = 0; i < supplements.size(); i++) {
                 var supp = supplements[i] as Dictionary;
                 if (supp != null) {
-                    var subLabel = supp["count"] + "g";
+                    var countVal = supp["count"] as Number;
+                    var subLabel = countVal.toString() + "mg";
+                    if (supp.hasKey("unit") && supp["unit"] == 1) {
+                        if (countVal % 1000 == 0) {
+                            subLabel = (countVal / 1000).toString() + "g";
+                        } else {
+                            subLabel = (countVal / 1000.0).format("%.1f") + "g";
+                        }
+                    }
                     menu.addItem(new WatchUi.MenuItem(supp["name"], subLabel, supp["id"], {}));
                 }
             }
@@ -38,7 +46,15 @@ module MenuBuilder {
             for (var i = 0; i < supplements.size(); i++) {
                 var supp = supplements[i] as Dictionary;
                 if (supp != null) {
-                    var subLabel = supp["count"] + "g";
+                    var countVal = supp["count"] as Number;
+                    var subLabel = countVal.toString() + "mg";
+                    if (supp.hasKey("unit") && supp["unit"] == 1) {
+                        if (countVal % 1000 == 0) {
+                            subLabel = (countVal / 1000).toString() + "g";
+                        } else {
+                            subLabel = (countVal / 1000.0).format("%.1f") + "g";
+                        }
+                    }
                     menu.addItem(new WatchUi.MenuItem(supp["name"], subLabel, supp["id"], {}));
                 }
             }
@@ -66,7 +82,15 @@ module MenuBuilder {
             for (var i = 0; i < supplements.size(); i++) {
                 var supp = supplements[i] as Dictionary;
                 if (supp != null) {
-                    var subLabel = supp["count"] + "g";
+                    var countVal = supp["count"] as Number;
+                    var subLabel = countVal.toString() + "mg";
+                    if (supp.hasKey("unit") && supp["unit"] == 1) {
+                        if (countVal % 1000 == 0) {
+                            subLabel = (countVal / 1000).toString() + "g";
+                        } else {
+                            subLabel = (countVal / 1000.0).format("%.1f") + "g";
+                        }
+                    }
                     gMainMenu.addItem(new WatchUi.MenuItem(supp["name"], subLabel, supp["id"], {}));
                 }
             }
@@ -92,7 +116,15 @@ module MenuBuilder {
             for (var i = 0; i < supplements.size(); i++) {
                 var supp = supplements[i] as Dictionary;
                 if (supp != null) {
-                    var subLabel = supp["count"] + "g";
+                    var countVal = supp["count"] as Number;
+                    var subLabel = countVal.toString() + "mg";
+                    if (supp.hasKey("unit") && supp["unit"] == 1) {
+                        if (countVal % 1000 == 0) {
+                            subLabel = (countVal / 1000).toString() + "g";
+                        } else {
+                            subLabel = (countVal / 1000.0).format("%.1f") + "g";
+                        }
+                    }
                     gManageMenu.addItem(new WatchUi.MenuItem(supp["name"], subLabel, supp["id"], {}));
                 }
             }

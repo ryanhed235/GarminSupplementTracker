@@ -1,0 +1,1603 @@
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [SupplementListTitle,13,27,46]; @symbol_type<0> = [ResourceId,13,50,60]; ]
+        var SupplementListTitle as ResourceId;
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [SupplementListPrompt,14,27,47]; @symbol_type<0> = [ResourceId,14,51,61]; ]
+        var SupplementListPrompt as ResourceId;
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [WebhookUrlTitle,15,27,42]; @symbol_type<0> = [ResourceId,15,46,56]; ]
+        var WebhookUrlTitle as ResourceId;
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [WebhookUrlPrompt,16,27,43]; @symbol_type<0> = [ResourceId,16,47,57]; ]
+        var WebhookUrlPrompt as ResourceId;
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [AppName,17,27,34]; @symbol_type<0> = [ResourceId,17,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 20; @symbol_moduledef = [Styles,20,11,17]; ]
+    module Styles {
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 20; ]
+        <init> {
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 21; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,21,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 21; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 22 18 ]
+                symbol [ Graphics %tmp.1 22 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.2 22 43 62 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.2;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 23 18 ]
+                symbol [ Graphics %tmp.3 23 25 33 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.4 23 34 44 ];
+                %tmp.4 = getv %tmp.3 :FONT_SMALL;
+                putv self :font %tmp.4;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 22; @position = 18; @symbol_constdef = [justification,22,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 23; @position = 18; @symbol_constdef = [font,23,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 26; @symbol_moduledef = [system_size__menu_header,26,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 26; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 27; @position = 18; @symbol_constdef = [width,27,18,23]; @symbol_type<0> = [Number,27,27,33]; ]
+            const width as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 28; @position = 18; @symbol_constdef = [height,28,18,24]; @symbol_type<0> = [Number,28,28,34]; ]
+            const height as Number = 105;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 31; @symbol_moduledef = [system_loc__hint_button_left_bottom,31,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 31; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 32; @position = 18; @symbol_constdef = [exclude,32,18,25]; @symbol_type<0> = [Boolean,32,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 35; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,35,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 35; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 36 18 ]
+                symbol [ Graphics %tmp.5 36 34 42 ];
+                %tmp.5 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.6 36 43 62 ];
+                %tmp.6 = getv %tmp.5 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.7 36 63 71 ];
+                %tmp.7 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.8 36 72 92 ];
+                %tmp.8 = getv %tmp.7 :TEXT_JUSTIFY_VCENTER;
+                %tmp.9 = bitor %tmp.6 %tmp.8;
+                putv self :justification %tmp.9;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 37 18 ]
+                symbol [ Graphics %tmp.10 37 25 33 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.11 37 34 44 ];
+                %tmp.11 = getv %tmp.10 :FONT_SMALL;
+                putv self :font %tmp.11;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 36; @position = 18; @symbol_constdef = [justification,36,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 37; @position = 18; @symbol_constdef = [font,37,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 40; @symbol_moduledef = [prompt_loc__body_no_title,40,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [x,41,18,19]; @symbol_type<0> = [Number,41,23,29]; ]
+            const x as Number = 45;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [y,42,18,19]; @symbol_type<0> = [Number,42,23,29]; ]
+            const y as Number = 68;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 45; @symbol_moduledef = [system_icon_dark__about,45,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [filename,46,18,26]; @symbol_type<0> = [String,46,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__about.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [compress,47,18,26]; @symbol_type<0> = [String,47,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 48; @position = 18; @symbol_constdef = [dithering,48,18,27]; @symbol_type<0> = [String,48,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 49; @position = 18; @symbol_constdef = [automaticPalette,49,18,34]; @symbol_type<0> = [String,49,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 50; @position = 18; @symbol_constdef = [packingFormat,50,18,31]; @symbol_type<0> = [String,50,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 53; @symbol_moduledef = [system_icon_light__question,53,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [filename,54,18,26]; @symbol_type<0> = [String,54,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__question.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [compress,55,18,26]; @symbol_type<0> = [String,55,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [dithering,56,18,27]; @symbol_type<0> = [String,56,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 57; @position = 18; @symbol_constdef = [automaticPalette,57,18,34]; @symbol_type<0> = [String,57,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 58; @position = 18; @symbol_constdef = [packingFormat,58,18,31]; @symbol_type<0> = [String,58,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 61; @symbol_moduledef = [system_loc__hint_button_left_top,61,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 61; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [exclude,62,18,25]; @symbol_type<0> = [Boolean,62,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 65; @symbol_moduledef = [prompt_font__title,65,15,33]; ]
+        module prompt_font__title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 65; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 66 18 ]
+                symbol [ Graphics %tmp.12 66 34 42 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.13 66 43 62 ];
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.14 66 63 71 ];
+                %tmp.14 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.15 66 72 92 ];
+                %tmp.15 = getv %tmp.14 :TEXT_JUSTIFY_VCENTER;
+                %tmp.16 = bitor %tmp.13 %tmp.15;
+                putv self :justification %tmp.16;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 67 18 ]
+                symbol [ Graphics %tmp.17 67 25 33 ];
+                %tmp.17 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.18 67 34 44 ];
+                %tmp.18 = getv %tmp.17 :FONT_XTINY;
+                putv self :font %tmp.18;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [justification,66,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [font,67,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 70; @symbol_moduledef = [system_icon_dark__discard,70,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 70; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [filename,71,18,26]; @symbol_type<0> = [String,71,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__discard.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [compress,72,18,26]; @symbol_type<0> = [String,72,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 73; @position = 18; @symbol_constdef = [dithering,73,18,27]; @symbol_type<0> = [String,73,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [automaticPalette,74,18,34]; @symbol_type<0> = [String,74,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [packingFormat,75,18,31]; @symbol_type<0> = [String,75,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 78; @symbol_moduledef = [system_size__menu_item,78,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 78; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [width,79,18,23]; @symbol_type<0> = [Number,79,27,33]; ]
+            const width as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [height,80,18,24]; @symbol_type<0> = [Number,80,28,34]; ]
+            const height as Number = 116;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 83; @symbol_moduledef = [system_color_dark__text,83,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 83; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 85 18 ]
+                symbol [ Graphics %tmp.19 85 31 39 ];
+                %tmp.19 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.20 85 40 57 ];
+                %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
+                putv self :background %tmp.20;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [color,84,18,23]; @symbol_type<0> = [Number,84,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [background,85,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 88; @symbol_moduledef = [system_icon_destructive__discard,88,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [filename,89,18,26]; @symbol_type<0> = [String,89,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__discard.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [dithering,90,18,27]; @symbol_type<0> = [String,90,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 91; @position = 18; @symbol_constdef = [packingFormat,91,18,31]; @symbol_type<0> = [String,91,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 94; @symbol_moduledef = [system_icon_dark__hint_action_menu,94,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 94; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [filename,95,18,26]; @symbol_type<0> = [String,95,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__hint_action_menu.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [dithering,96,18,27]; @symbol_type<0> = [String,96,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 97; @position = 18; @symbol_constdef = [packingFormat,97,18,31]; @symbol_type<0> = [String,97,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 100; @symbol_moduledef = [prompt_size__title,100,15,33]; ]
+        module prompt_size__title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 100; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [width,101,18,23]; @symbol_type<0> = [Number,101,27,33]; ]
+            const width as Number = 192;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [height,102,18,24]; @symbol_type<0> = [Number,102,28,34]; ]
+            const height as Number = 81;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 105; @symbol_moduledef = [confirmation_font__body,105,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 105; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 106 18 ]
+                symbol [ Graphics %tmp.21 106 34 42 ];
+                %tmp.21 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.22 106 43 62 ];
+                %tmp.22 = getv %tmp.21 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.23 106 63 71 ];
+                %tmp.23 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.24 106 72 92 ];
+                %tmp.24 = getv %tmp.23 :TEXT_JUSTIFY_VCENTER;
+                %tmp.25 = bitor %tmp.22 %tmp.24;
+                putv self :justification %tmp.25;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 107 18 ]
+                symbol [ Graphics %tmp.26 107 25 33 ];
+                %tmp.26 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.27 107 34 43 ];
+                %tmp.27 = getv %tmp.26 :FONT_TINY;
+                putv self :font %tmp.27;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 106; @position = 18; @symbol_constdef = [justification,106,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [font,107,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 110; @symbol_moduledef = [system_color_dark__background,110,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 110; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [color,111,18,23]; @symbol_type<0> = [Number,111,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [background,112,18,28]; @symbol_type<0> = [Number,112,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 115; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,115,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 115; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [exclude,116,18,25]; @symbol_type<0> = [Boolean,116,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 119; @symbol_moduledef = [system_size__launch_icon,119,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 119; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [scaleX,120,18,24]; @symbol_type<0> = [Number,120,28,34]; ]
+            const scaleX as Number = 70;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [scaleY,121,18,24]; @symbol_type<0> = [Number,121,28,34]; ]
+            const scaleY as Number = 70;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [scaleRelativeTo,122,18,33]; @symbol_type<0> = [String,122,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 125; @symbol_moduledef = [confirmation_input__confirm,125,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [y1,126,18,20]; @symbol_type<0> = [Number,126,24,30]; ]
+            const y1 as Number = 345;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [x1,127,18,20]; @symbol_type<0> = [Number,127,24,30]; ]
+            const x1 as Number = 84;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [y2,128,18,20]; @symbol_type<0> = [Number,128,24,30]; ]
+            const y2 as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [x2,129,18,20]; @symbol_type<0> = [Number,129,24,30]; ]
+            const x2 as Number = 370;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 132; @symbol_moduledef = [prompt_font__body_with_title,132,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 132; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 133 18 ]
+                symbol [ Graphics %tmp.28 133 34 42 ];
+                %tmp.28 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.29 133 43 62 ];
+                %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.29;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 134 18 ]
+                symbol [ Graphics %tmp.30 134 25 33 ];
+                %tmp.30 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.31 134 34 43 ];
+                %tmp.31 = getv %tmp.30 :FONT_TINY;
+                putv self :font %tmp.31;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [justification,133,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [font,134,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 137; @symbol_moduledef = [confirmation_loc__body,137,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [x,138,18,19]; @symbol_type<0> = [Number,138,23,29]; ]
+            const x as Number = 93;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [y,139,18,19]; @symbol_type<0> = [Number,139,23,29]; ]
+            const y as Number = 91;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 142; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,142,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [exclude,143,18,25]; @symbol_type<0> = [Boolean,143,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 146; @symbol_moduledef = [prompt_color_dark__background,146,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [color,147,18,23]; @symbol_type<0> = [Number,147,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [background,148,18,28]; @symbol_type<0> = [Number,148,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [system_icon_destructive__hint_action_menu,151,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [filename,152,18,26]; @symbol_type<0> = [String,152,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__hint_action_menu.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [dithering,153,18,27]; @symbol_type<0> = [String,153,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [packingFormat,154,18,31]; @symbol_type<0> = [String,154,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 157; @symbol_moduledef = [system_loc__hint_action_menu,157,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [x,158,18,19]; @symbol_type<0> = [Number,158,23,29]; ]
+            const x as Number = 227;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 159; @position = 18; @symbol_constdef = [horizontalJustification,159,18,41]; @symbol_type<0> = [String,159,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 160; @position = 18; @symbol_constdef = [y,160,18,19]; @symbol_type<0> = [Number,160,23,29]; ]
+            const y as Number = 370;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 163; @symbol_moduledef = [confirmation_icon__hint_confirm,163,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 163; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [filename,164,18,26]; @symbol_type<0> = [String,164,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [dithering,165,18,27]; @symbol_type<0> = [String,165,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [packingFormat,166,18,31]; @symbol_type<0> = [String,166,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 169; @symbol_moduledef = [system_loc__hint_button_left_middle,169,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 169; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 170; @position = 18; @symbol_constdef = [exclude,170,18,25]; @symbol_type<0> = [Boolean,170,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 173; @symbol_moduledef = [prompt_size__body_no_title,173,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [width,174,18,23]; @symbol_type<0> = [Number,174,27,33]; ]
+            const width as Number = 363;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [height,175,18,24]; @symbol_type<0> = [Number,175,28,34]; ]
+            const height as Number = 295;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 178; @symbol_moduledef = [system_icon_light__hint_button_left_top,178,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 178; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [exclude,179,18,25]; @symbol_type<0> = [Boolean,179,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 182; @symbol_moduledef = [prompt_color_light__background,182,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 182; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [color,183,18,23]; @symbol_type<0> = [Number,183,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [background,184,18,28]; @symbol_type<0> = [Number,184,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 187; @symbol_moduledef = [confirmation_input__delete,187,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 187; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 188 18 ]
+                symbol [ WatchUi %tmp.32 188 27 34 ];
+                %tmp.32 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.33 188 35 44 ];
+                %tmp.33 = getv %tmp.32 :KEY_ENTER;
+                putv self :button %tmp.33;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [button,188,18,24]; ]
+            const button;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [system_icon_dark__hint_button_left_top,191,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [exclude,192,18,25]; @symbol_type<0> = [Boolean,192,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 195; @symbol_moduledef = [system_input__action_menu,195,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [y1,196,18,20]; @symbol_type<0> = [Number,196,24,30]; ]
+            const y1 as Number = 370;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [x1,197,18,20]; @symbol_type<0> = [Number,197,24,30]; ]
+            const x1 as Number = 113;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [y2,198,18,20]; @symbol_type<0> = [Number,198,24,30]; ]
+            const y2 as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 199; @position = 18; @symbol_constdef = [x2,199,18,20]; @symbol_type<0> = [Number,199,24,30]; ]
+            const x2 as Number = 341;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 202; @symbol_moduledef = [system_icon_light__save,202,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 202; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [filename,203,18,26]; @symbol_type<0> = [String,203,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__save.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 204; @position = 18; @symbol_constdef = [compress,204,18,26]; @symbol_type<0> = [String,204,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [dithering,205,18,27]; @symbol_type<0> = [String,205,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [automaticPalette,206,18,34]; @symbol_type<0> = [String,206,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [packingFormat,207,18,31]; @symbol_type<0> = [String,207,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 210; @symbol_moduledef = [prompt_color_light__body,210,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 212 18 ]
+                symbol [ Graphics %tmp.34 212 31 39 ];
+                %tmp.34 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.35 212 40 57 ];
+                %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+                putv self :background %tmp.35;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [color,211,18,23]; @symbol_type<0> = [Number,211,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [background,212,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [system_loc__subwindow,215,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [exclude,216,18,25]; @symbol_type<0> = [Boolean,216,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 219; @symbol_moduledef = [system_icon_light__warning,219,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [filename,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__warning.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [compress,221,18,26]; @symbol_type<0> = [String,221,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [dithering,222,18,27]; @symbol_type<0> = [String,222,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [automaticPalette,223,18,34]; @symbol_type<0> = [String,223,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 224; @position = 18; @symbol_constdef = [packingFormat,224,18,31]; @symbol_type<0> = [String,224,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 227; @symbol_moduledef = [confirmation_color_light__body,227,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 227; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 229 18 ]
+                symbol [ Graphics %tmp.36 229 31 39 ];
+                %tmp.36 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.37 229 40 57 ];
+                %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
+                putv self :background %tmp.37;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [color,228,18,23]; @symbol_type<0> = [Number,228,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 229; @position = 18; @symbol_constdef = [background,229,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 232; @symbol_moduledef = [confirmation_icon_light__hint_keep,232,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 232; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [filename,233,18,26]; @symbol_type<0> = [String,233,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_keep.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [dithering,234,18,27]; @symbol_type<0> = [String,234,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [packingFormat,235,18,31]; @symbol_type<0> = [String,235,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 238; @symbol_moduledef = [activity_color_light__background,238,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [color,239,18,23]; @symbol_type<0> = [Number,239,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [background,240,18,28]; @symbol_type<0> = [Number,240,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 243; @symbol_moduledef = [system_icon_positive__hint_button_right_top,243,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 243; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [filename,244,18,26]; @symbol_type<0> = [String,244,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [dithering,245,18,27]; @symbol_type<0> = [String,245,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 248; @symbol_moduledef = [system_size__screen,248,15,34]; ]
+        module system_size__screen {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [width,249,18,23]; @symbol_type<0> = [Number,249,27,33]; ]
+            const width as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [height,250,18,24]; @symbol_type<0> = [Number,250,28,34]; ]
+            const height as Number = 454;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 253; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,253,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [filename,254,18,26]; @symbol_type<0> = [String,254,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [dithering,255,18,27]; @symbol_type<0> = [String,255,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 258; @symbol_moduledef = [system_color_light__background,258,15,45]; ]
+        module system_color_light__background {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [color,259,18,23]; @symbol_type<0> = [Number,259,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [background,260,18,28]; @symbol_type<0> = [Number,260,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,263,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [filename,264,18,26]; @symbol_type<0> = [String,264,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [dithering,265,18,27]; @symbol_type<0> = [String,265,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [confirmation_loc__hint_confirm,268,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [x,269,18,19]; @symbol_type<0> = [Number,269,23,29]; ]
+            const x as Number = 227;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [horizontalJustification,270,18,41]; @symbol_type<0> = [String,270,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [y,271,18,19]; @symbol_type<0> = [Number,271,23,29]; ]
+            const y as Number = 345;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 274; @symbol_moduledef = [activity_color_dark__text,274,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 274; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 276 18 ]
+                symbol [ Graphics %tmp.38 276 31 39 ];
+                %tmp.38 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.39 276 40 57 ];
+                %tmp.39 = getv %tmp.38 :COLOR_TRANSPARENT;
+                putv self :background %tmp.39;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [color,275,18,23]; @symbol_type<0> = [Number,275,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 276; @position = 18; @symbol_constdef = [background,276,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 279; @symbol_moduledef = [confirmation_input__keep,279,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 279; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 280 18 ]
+                symbol [ WatchUi %tmp.40 280 27 34 ];
+                %tmp.40 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.41 280 35 42 ];
+                %tmp.41 = getv %tmp.40 :KEY_ESC;
+                putv self :button %tmp.41;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [button,280,18,24]; ]
+            const button;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 283; @symbol_moduledef = [prompt_loc__body_with_title,283,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [x,284,18,19]; @symbol_type<0> = [Number,284,23,29]; ]
+            const x as Number = 45;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [y,285,18,19]; @symbol_type<0> = [Number,285,23,29]; ]
+            const y as Number = 114;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [system_icon_dark__search,288,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [filename,289,18,26]; @symbol_type<0> = [String,289,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__search.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [compress,290,18,26]; @symbol_type<0> = [String,290,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [dithering,291,18,27]; @symbol_type<0> = [String,291,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [automaticPalette,292,18,34]; @symbol_type<0> = [String,292,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [packingFormat,293,18,31]; @symbol_type<0> = [String,293,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 296; @symbol_moduledef = [activity_color_light__text,296,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 296; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 298 18 ]
+                symbol [ Graphics %tmp.42 298 31 39 ];
+                %tmp.42 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.43 298 40 57 ];
+                %tmp.43 = getv %tmp.42 :COLOR_TRANSPARENT;
+                putv self :background %tmp.43;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [color,297,18,23]; @symbol_type<0> = [Number,297,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [background,298,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 301; @symbol_moduledef = [confirmation_icon__hint_keep,301,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [filename,302,18,26]; @symbol_type<0> = [String,302,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_keep.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [dithering,303,18,27]; @symbol_type<0> = [String,303,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [packingFormat,304,18,31]; @symbol_type<0> = [String,304,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_dark__save,307,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__save.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [compress,309,18,26]; @symbol_type<0> = [String,309,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [dithering,310,18,27]; @symbol_type<0> = [String,310,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [automaticPalette,311,18,34]; @symbol_type<0> = [String,311,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [packingFormat,312,18,31]; @symbol_type<0> = [String,312,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 315; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,315,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 315; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [exclude,316,18,25]; @symbol_type<0> = [Boolean,316,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 319; @symbol_moduledef = [system_icon_light__search,319,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [filename,320,18,26]; @symbol_type<0> = [String,320,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__search.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [compress,321,18,26]; @symbol_type<0> = [String,321,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [dithering,322,18,27]; @symbol_type<0> = [String,322,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [automaticPalette,323,18,34]; @symbol_type<0> = [String,323,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [packingFormat,324,18,31]; @symbol_type<0> = [String,324,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 327; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,327,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [exclude,328,18,25]; @symbol_type<0> = [Boolean,328,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 331; @symbol_moduledef = [system_icon_positive__hint_button_left_top,331,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 331; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [exclude,332,18,25]; @symbol_type<0> = [Boolean,332,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 335; @symbol_moduledef = [system_loc__hint_button_right_bottom,335,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 335; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [x,336,18,19]; @symbol_type<0> = [Number,336,23,29]; ]
+            const x as Number = 342;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [y,337,18,19]; @symbol_type<0> = [Number,337,23,29]; ]
+            const y as Number = 256;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 340; @symbol_moduledef = [confirmation_icon_dark__hint_reject,340,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 340; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [filename,341,18,26]; @symbol_type<0> = [String,341,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_reject.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [dithering,342,18,27]; @symbol_type<0> = [String,342,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [packingFormat,343,18,31]; @symbol_type<0> = [String,343,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 346; @symbol_moduledef = [confirmation_color_dark__body,346,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 348 18 ]
+                symbol [ Graphics %tmp.44 348 31 39 ];
+                %tmp.44 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.45 348 40 57 ];
+                %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+                putv self :background %tmp.45;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [color,347,18,23]; @symbol_type<0> = [Number,347,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [background,348,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [confirmation_icon_light__hint_confirm,351,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [dithering,353,18,27]; @symbol_type<0> = [String,353,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [packingFormat,354,18,31]; @symbol_type<0> = [String,354,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 357; @symbol_moduledef = [prompt_color_dark__title,357,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 357; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 359 18 ]
+                symbol [ Graphics %tmp.46 359 31 39 ];
+                %tmp.46 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.47 359 40 57 ];
+                %tmp.47 = getv %tmp.46 :COLOR_TRANSPARENT;
+                putv self :background %tmp.47;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [color,358,18,23]; @symbol_type<0> = [Number,358,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [background,359,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 362; @symbol_moduledef = [system_icon_destructive__cancel,362,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [filename,363,18,26]; @symbol_type<0> = [String,363,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__cancel.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [dithering,364,18,27]; @symbol_type<0> = [String,364,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [packingFormat,365,18,31]; @symbol_type<0> = [String,365,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 368; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,368,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [filename,369,18,26]; @symbol_type<0> = [String,369,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [dithering,370,18,27]; @symbol_type<0> = [String,370,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 373; @symbol_moduledef = [prompt_loc__title,373,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 373; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 374; @position = 18; @symbol_constdef = [x,374,18,19]; @symbol_type<0> = [Number,374,23,29]; ]
+            const x as Number = 138;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 375; @position = 18; @symbol_constdef = [y,375,18,19]; @symbol_type<0> = [Number,375,23,29]; ]
+            const y as Number = 20;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 378; @symbol_moduledef = [confirmation_font_enhanced_readability__body,378,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 378; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 379 18 ]
+                symbol [ Graphics %tmp.48 379 34 42 ];
+                %tmp.48 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.49 379 43 62 ];
+                %tmp.49 = getv %tmp.48 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.50 379 63 71 ];
+                %tmp.50 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.51 379 72 92 ];
+                %tmp.51 = getv %tmp.50 :TEXT_JUSTIFY_VCENTER;
+                %tmp.52 = bitor %tmp.49 %tmp.51;
+                putv self :justification %tmp.52;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 380 18 ]
+                symbol [ Graphics %tmp.53 380 25 33 ];
+                %tmp.53 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.54 380 34 44 ];
+                %tmp.54 = getv %tmp.53 :FONT_SMALL;
+                putv self :font %tmp.54;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [justification,379,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 380; @position = 18; @symbol_constdef = [font,380,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 383; @symbol_moduledef = [prompt_color_light__title,383,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 383; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 385 18 ]
+                symbol [ Graphics %tmp.55 385 31 39 ];
+                %tmp.55 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.56 385 40 57 ];
+                %tmp.56 = getv %tmp.55 :COLOR_TRANSPARENT;
+                putv self :background %tmp.56;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [color,384,18,23]; @symbol_type<0> = [Number,384,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [background,385,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 388; @symbol_moduledef = [system_icon_dark__hint_button_right_top,388,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 389; @position = 18; @symbol_constdef = [filename,389,18,26]; @symbol_type<0> = [String,389,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 390; @position = 18; @symbol_constdef = [dithering,390,18,27]; @symbol_type<0> = [String,390,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 393; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,393,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 393; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 394; @position = 18; @symbol_constdef = [exclude,394,18,25]; @symbol_type<0> = [Boolean,394,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 397; @symbol_moduledef = [confirmation_icon_dark__hint_keep,397,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 397; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [filename,398,18,26]; @symbol_type<0> = [String,398,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_keep.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [dithering,399,18,27]; @symbol_type<0> = [String,399,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [packingFormat,400,18,31]; @symbol_type<0> = [String,400,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 403; @symbol_moduledef = [system_icon_light__cancel,403,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 403; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [filename,404,18,26]; @symbol_type<0> = [String,404,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__cancel.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 405; @position = 18; @symbol_constdef = [compress,405,18,26]; @symbol_type<0> = [String,405,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [dithering,406,18,27]; @symbol_type<0> = [String,406,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [automaticPalette,407,18,34]; @symbol_type<0> = [String,407,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [packingFormat,408,18,31]; @symbol_type<0> = [String,408,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 411; @symbol_moduledef = [confirmation_icon_light__hint_reject,411,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 411; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [filename,412,18,26]; @symbol_type<0> = [String,412,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_reject.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [dithering,413,18,27]; @symbol_type<0> = [String,413,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 414; @position = 18; @symbol_constdef = [packingFormat,414,18,31]; @symbol_type<0> = [String,414,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 417; @symbol_moduledef = [system_icon_light__about,417,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 417; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 418; @position = 18; @symbol_constdef = [filename,418,18,26]; @symbol_type<0> = [String,418,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__about.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 419; @position = 18; @symbol_constdef = [compress,419,18,26]; @symbol_type<0> = [String,419,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [dithering,420,18,27]; @symbol_type<0> = [String,420,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [automaticPalette,421,18,34]; @symbol_type<0> = [String,421,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [packingFormat,422,18,31]; @symbol_type<0> = [String,422,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [system_size__toast_icon,425,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [scaleX,426,18,24]; @symbol_type<0> = [Number,426,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [scaleY,427,18,24]; @symbol_type<0> = [Number,427,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [scaleRelativeTo,428,18,33]; @symbol_type<0> = [String,428,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 431; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,431,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 431; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [exclude,432,18,25]; @symbol_type<0> = [Boolean,432,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [confirmation_icon__hint_reject,435,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_reject.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 438; @position = 18; @symbol_constdef = [packingFormat,438,18,31]; @symbol_type<0> = [String,438,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 441; @symbol_moduledef = [system_icon_light__hint_action_menu,441,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 441; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [filename,442,18,26]; @symbol_type<0> = [String,442,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_action_menu.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [dithering,443,18,27]; @symbol_type<0> = [String,443,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 444; @position = 18; @symbol_constdef = [packingFormat,444,18,31]; @symbol_type<0> = [String,444,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 447; @symbol_moduledef = [system_icon_light__hint_button_right_middle,447,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 447; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [exclude,448,18,25]; @symbol_type<0> = [Boolean,448,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 451; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,451,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [exclude,452,18,25]; @symbol_type<0> = [Boolean,452,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 455; @symbol_moduledef = [confirmation_loc__hint_reject,455,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [x,456,18,19]; @symbol_type<0> = [Number,456,23,29]; ]
+            const x as Number = 227;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [horizontalJustification,457,18,41]; @symbol_type<0> = [String,457,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 458; @position = 18; @symbol_constdef = [y,458,18,19]; @symbol_type<0> = [Number,458,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 461; @symbol_moduledef = [confirmation_icon_dark__hint_delete,461,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 461; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [filename,462,18,26]; @symbol_type<0> = [String,462,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_delete.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [dithering,463,18,27]; @symbol_type<0> = [String,463,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [packingFormat,464,18,31]; @symbol_type<0> = [String,464,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 467; @symbol_moduledef = [activity_color_dark__background,467,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [color,468,18,23]; @symbol_type<0> = [Number,468,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 469; @position = 18; @symbol_constdef = [background,469,18,28]; @symbol_type<0> = [Number,469,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 472; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,472,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 472; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [exclude,473,18,25]; @symbol_type<0> = [Boolean,473,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 476; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,476,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [exclude,477,18,25]; @symbol_type<0> = [Boolean,477,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 480; @symbol_moduledef = [system_size__menu_icon,480,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [scaleX,481,18,24]; @symbol_type<0> = [Number,481,28,34]; ]
+            const scaleX as Number = 55;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [scaleY,482,18,24]; @symbol_type<0> = [Number,482,28,34]; ]
+            const scaleY as Number = 55;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [scaleRelativeTo,483,18,33]; @symbol_type<0> = [String,483,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 486; @symbol_moduledef = [system_icon_destructive__warning,486,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 486; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [filename,487,18,26]; @symbol_type<0> = [String,487,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__warning.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [dithering,488,18,27]; @symbol_type<0> = [String,488,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [packingFormat,489,18,31]; @symbol_type<0> = [String,489,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 492; @symbol_moduledef = [system_loc__hint_button_right_middle,492,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [exclude,493,18,25]; @symbol_type<0> = [Boolean,493,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 496; @symbol_moduledef = [system_icon_dark__cancel,496,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 496; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [filename,497,18,26]; @symbol_type<0> = [String,497,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__cancel.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [compress,498,18,26]; @symbol_type<0> = [String,498,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [dithering,499,18,27]; @symbol_type<0> = [String,499,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [automaticPalette,500,18,34]; @symbol_type<0> = [String,500,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [packingFormat,501,18,31]; @symbol_type<0> = [String,501,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 504; @symbol_moduledef = [prompt_size__body_with_title,504,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [width,505,18,23]; @symbol_type<0> = [Number,505,27,33]; ]
+            const width as Number = 363;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [height,506,18,24]; @symbol_type<0> = [Number,506,28,34]; ]
+            const height as Number = 250;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 509; @symbol_moduledef = [system_loc__hint_button_right_top,509,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [x,510,18,19]; @symbol_type<0> = [Number,510,23,29]; ]
+            const x as Number = 360;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [y,511,18,19]; @symbol_type<0> = [Number,511,23,29]; ]
+            const y as Number = 54;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 514; @symbol_moduledef = [system_color_light__text,514,15,39]; ]
+        module system_color_light__text {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 514; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 516 18 ]
+                symbol [ Graphics %tmp.57 516 31 39 ];
+                %tmp.57 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.58 516 40 57 ];
+                %tmp.58 = getv %tmp.57 :COLOR_TRANSPARENT;
+                putv self :background %tmp.58;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [color,515,18,23]; @symbol_type<0> = [Number,515,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [background,516,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 519; @symbol_moduledef = [system_icon_light__check,519,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 519; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [filename,520,18,26]; @symbol_type<0> = [String,520,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__check.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [compress,521,18,26]; @symbol_type<0> = [String,521,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [dithering,522,18,27]; @symbol_type<0> = [String,522,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [automaticPalette,523,18,34]; @symbol_type<0> = [String,523,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [packingFormat,524,18,31]; @symbol_type<0> = [String,524,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 527; @symbol_moduledef = [confirmation_input__reject,527,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 527; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [y1,528,18,20]; @symbol_type<0> = [Number,528,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [x1,529,18,20]; @symbol_type<0> = [Number,529,24,30]; ]
+            const x1 as Number = 113;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [y2,530,18,20]; @symbol_type<0> = [Number,530,24,30]; ]
+            const y2 as Number = 88;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [x2,531,18,20]; @symbol_type<0> = [Number,531,24,30]; ]
+            const x2 as Number = 341;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 534; @symbol_moduledef = [system_icon_light__revert,534,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 534; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [filename,535,18,26]; @symbol_type<0> = [String,535,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__revert.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [compress,536,18,26]; @symbol_type<0> = [String,536,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [dithering,537,18,27]; @symbol_type<0> = [String,537,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [automaticPalette,538,18,34]; @symbol_type<0> = [String,538,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [packingFormat,539,18,31]; @symbol_type<0> = [String,539,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 542; @symbol_moduledef = [system_size__subwindow,542,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 542; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [exclude,543,18,25]; @symbol_type<0> = [Boolean,543,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 546; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,546,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [exclude,547,18,25]; @symbol_type<0> = [Boolean,547,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 550; @symbol_moduledef = [system_icon_dark__check,550,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 550; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [filename,551,18,26]; @symbol_type<0> = [String,551,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__check.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [compress,552,18,26]; @symbol_type<0> = [String,552,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [dithering,553,18,27]; @symbol_type<0> = [String,553,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [automaticPalette,554,18,34]; @symbol_type<0> = [String,554,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [packingFormat,555,18,31]; @symbol_type<0> = [String,555,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 558; @symbol_moduledef = [confirmation_loc__hint_keep,558,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 558; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [x,559,18,19]; @symbol_type<0> = [Number,559,23,29]; ]
+            const x as Number = 342;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [y,560,18,19]; @symbol_type<0> = [Number,560,23,29]; ]
+            const y as Number = 256;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 563; @symbol_moduledef = [confirmation_loc__hint_delete,563,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 563; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [x,564,18,19]; @symbol_type<0> = [Number,564,23,29]; ]
+            const x as Number = 358;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [y,565,18,19]; @symbol_type<0> = [Number,565,23,29]; ]
+            const y as Number = 54;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 568; @symbol_moduledef = [system_icon_positive__hint_action_menu,568,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [filename,569,18,26]; @symbol_type<0> = [String,569,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_positive__hint_action_menu.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [dithering,570,18,27]; @symbol_type<0> = [String,570,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [packingFormat,571,18,31]; @symbol_type<0> = [String,571,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 574; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,574,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [exclude,575,18,25]; @symbol_type<0> = [Boolean,575,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 578; @symbol_moduledef = [system_icon_light__hint_button_left_middle,578,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [exclude,579,18,25]; @symbol_type<0> = [Boolean,579,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 582; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,582,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [filename,583,18,26]; @symbol_type<0> = [String,583,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [dithering,584,18,27]; @symbol_type<0> = [String,584,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 587; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,587,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [filename,588,18,26]; @symbol_type<0> = [String,588,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [dithering,589,18,27]; @symbol_type<0> = [String,589,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 592; @symbol_moduledef = [system_icon_dark__revert,592,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [filename,593,18,26]; @symbol_type<0> = [String,593,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__revert.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [compress,594,18,26]; @symbol_type<0> = [String,594,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 595; @position = 18; @symbol_constdef = [dithering,595,18,27]; @symbol_type<0> = [String,595,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [automaticPalette,596,18,34]; @symbol_type<0> = [String,596,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [packingFormat,597,18,31]; @symbol_type<0> = [String,597,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 600; @symbol_moduledef = [confirmation_icon_light__hint_delete,600,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 600; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [filename,601,18,26]; @symbol_type<0> = [String,601,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_delete.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [dithering,602,18,27]; @symbol_type<0> = [String,602,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [packingFormat,603,18,31]; @symbol_type<0> = [String,603,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 606; @symbol_moduledef = [system_icon_dark__question,606,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [filename,607,18,26]; @symbol_type<0> = [String,607,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__question.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [compress,608,18,26]; @symbol_type<0> = [String,608,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [dithering,609,18,27]; @symbol_type<0> = [String,609,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [automaticPalette,610,18,34]; @symbol_type<0> = [String,610,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [packingFormat,611,18,31]; @symbol_type<0> = [String,611,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 614; @symbol_moduledef = [system_icon_light__discard,614,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 614; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [filename,615,18,26]; @symbol_type<0> = [String,615,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__discard.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [compress,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [automaticPalette,618,18,34]; @symbol_type<0> = [String,618,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [packingFormat,619,18,31]; @symbol_type<0> = [String,619,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 622; @symbol_moduledef = [device_info,622,15,26]; ]
+        module device_info {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 622; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 624 18 ]
+                symbol [ Toybox %tmp.60 624 32 38 ];
+                %tmp.60 = getv ? :Toybox;
+                symbol [ System %tmp.61 624 39 45 ];
+                %tmp.61 = getv %tmp.60 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.62 624 46 64 ];
+                %tmp.62 = getv %tmp.61 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.62;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [screenWidth,623,18,29]; @symbol_type<0> = [Number,623,33,39]; ]
+            const screenWidth as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [screenShape,624,18,29]; ]
+            const screenShape;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [hasNightMode,625,18,30]; @symbol_type<0> = [Boolean,625,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [hasGpu,626,18,24]; @symbol_type<0> = [Boolean,626,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [screenHeight,627,18,30]; @symbol_type<0> = [Number,627,34,40]; ]
+            const screenHeight as Number = 454;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [hasTouchScreen,628,18,32]; @symbol_type<0> = [Boolean,628,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,629,18,44]; @symbol_type<0> = [Boolean,629,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = true;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 632; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,632,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 632; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [filename,633,18,26]; @symbol_type<0> = [String,633,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [dithering,634,18,27]; @symbol_type<0> = [String,634,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [packingFormat,635,18,31]; @symbol_type<0> = [String,635,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 638; @symbol_moduledef = [prompt_font__body_no_title,638,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 638; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 639 18 ]
+                symbol [ Graphics %tmp.63 639 34 42 ];
+                %tmp.63 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.64 639 43 62 ];
+                %tmp.64 = getv %tmp.63 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.65 639 63 71 ];
+                %tmp.65 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.66 639 72 92 ];
+                %tmp.66 = getv %tmp.65 :TEXT_JUSTIFY_VCENTER;
+                %tmp.67 = bitor %tmp.64 %tmp.66;
+                putv self :justification %tmp.67;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 640 18 ]
+                symbol [ Graphics %tmp.68 640 25 33 ];
+                %tmp.68 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.69 640 34 43 ];
+                %tmp.69 = getv %tmp.68 :FONT_TINY;
+                putv self :font %tmp.69;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [justification,639,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [font,640,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 643; @symbol_moduledef = [prompt_size__title_icon,643,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [scaleX,644,18,24]; @symbol_type<0> = [Float,644,28,33]; ]
+            const scaleX as Float = 0.14;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [scaleRelativeTo,645,18,33]; @symbol_type<0> = [String,645,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 648; @symbol_moduledef = [system_icon_dark__warning,648,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 648; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [filename,649,18,26]; @symbol_type<0> = [String,649,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__warning.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [compress,650,18,26]; @symbol_type<0> = [String,650,30,36]; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [dithering,651,18,27]; @symbol_type<0> = [String,651,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [automaticPalette,652,18,34]; @symbol_type<0> = [String,652,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [packingFormat,653,18,31]; @symbol_type<0> = [String,653,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 656; @symbol_moduledef = [prompt_loc__title_icon,656,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 656; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [x,657,18,19]; @symbol_type<0> = [Number,657,23,29]; ]
+            const x as Number = 227;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [y,658,18,19]; @symbol_type<0> = [Number,658,23,29]; ]
+            const y as Number = 45;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [horizontalJustification,659,18,41]; @symbol_type<0> = [String,659,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [verticalJustification,660,18,39]; @symbol_type<0> = [String,660,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 663; @symbol_moduledef = [prompt_font_enhanced_readability__title,663,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 663; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 664 18 ]
+                symbol [ Graphics %tmp.70 664 34 42 ];
+                %tmp.70 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.71 664 43 62 ];
+                %tmp.71 = getv %tmp.70 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.72 664 63 71 ];
+                %tmp.72 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.73 664 72 92 ];
+                %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_VCENTER;
+                %tmp.74 = bitor %tmp.71 %tmp.73;
+                putv self :justification %tmp.74;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 665 18 ]
+                symbol [ Graphics %tmp.75 665 25 33 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.76 665 34 44 ];
+                %tmp.76 = getv %tmp.75 :FONT_XTINY;
+                putv self :font %tmp.76;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [justification,664,18,31]; ]
+            const justification;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [font,665,18,22]; ]
+            const font;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 668; @symbol_moduledef = [prompt_color_dark__body,668,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 668; ]
+            <init> {
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen" 670 18 ]
+                symbol [ Graphics %tmp.77 670 31 39 ];
+                %tmp.77 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.78 670 40 57 ];
+                %tmp.78 = getv %tmp.77 :COLOR_TRANSPARENT;
+                putv self :background %tmp.78;
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [color,669,18,23]; @symbol_type<0> = [Number,669,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [background,670,18,28]; ]
+            const background;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 673; @symbol_moduledef = [confirmation_icon__hint_delete,673,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [filename,674,18,26]; @symbol_type<0> = [String,674,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_delete.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [dithering,675,18,27]; @symbol_type<0> = [String,675,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 676; @position = 18; @symbol_constdef = [packingFormat,676,18,31]; @symbol_type<0> = [String,676,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 679; @symbol_moduledef = [system_icon_light__hint_button_right_top,679,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 679; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [filename,680,18,26]; @symbol_type<0> = [String,680,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [dithering,681,18,27]; @symbol_type<0> = [String,681,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 684; @symbol_moduledef = [confirmation_size__body,684,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 684; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [width,685,18,23]; @symbol_type<0> = [Number,685,27,33]; ]
+            const width as Number = 269;
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [height,686,18,24]; @symbol_type<0> = [Number,686,28,34]; ]
+            const height as Number = 272;
+        }
+        [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 689; @symbol_moduledef = [system_icon_positive__check,689,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 689; ]
+            <init> {
+            }
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [filename,690,18,26]; @symbol_type<0> = [String,690,30,36]; ]
+            const filename as String = "C:\\Users\\ryanh\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_positive__check.svg";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 691; @position = 18; @symbol_constdef = [dithering,691,18,27]; @symbol_type<0> = [String,691,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 692; @position = 18; @symbol_constdef = [packingFormat,692,18,31]; @symbol_type<0> = [String,692,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\gen\006-B4260-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

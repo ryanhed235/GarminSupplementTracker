@@ -1,0 +1,277 @@
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 6; @symbol_classdef = [SupplementItemDrawable,6,6,28]; @symbol_extends<0> = [WatchUi,6,37,44]; @symbol_extends<1> = [Drawable,6,45,53]; ]
+class SupplementItemDrawable extends WatchUi.Drawable {
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 7; @position = 16; @symbol_vardef = [_label,7,16,22]; @symbol_type<0> = [String,7,26,32]; ]
+    private
+    var _label as String;
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 8; @position = 16; @symbol_vardef = [_subLabel,8,16,25]; @symbol_type<0> = [String,8,29,35]; ]
+    private
+    var _subLabel as String;
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; @symbol_param<0> = [label,10,24,29]; @symbol_param<0>_type<0> = [String,10,33,39]; @symbol_param<1> = [subLabel,10,41,49]; @symbol_param<1>_type<0> = [String,10,53,59]; ]
+    function initialize(label as String, subLabel as String) as Void {
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_10_61_20_4_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 11 8 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_10_61_20_4_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_10_61_20_4_stop" ]
+        %settings.1 = local;
+        symbol [ settings %settings.1 11 12 20 ];
+        symbol [ System %tmp.1 11 23 29 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 11 30 47 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %settings.1 %tmp.3;
+        symbol [ settings %settings.1 11 12 20 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 12 8 ]
+        symbol [ Drawable %tmp.5 12 8 16 ];
+        %tmp.5 = getv ? :Drawable;
+        symbol [ initialize %tmp.6 12 17 27 ];
+        %tmp.6 = getv function %tmp.5 :initialize;
+        %tmp.7 = newd 4;
+        %tmp.9 = const :locX;
+        symbol [ locX %tmp.9 13 13 17 const ];
+        %tmp.10 = 0;
+        %tmp.11 = dup %tmp.7;
+        %tmp.12 = aputv %tmp.11 %tmp.9 %tmp.10;
+        %tmp.14 = const :locY;
+        symbol [ locY %tmp.14 14 13 17 const ];
+        %tmp.15 = 0;
+        %tmp.16 = dup %tmp.12;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.19 = const :width;
+        symbol [ width %tmp.19 15 13 18 const ];
+        %tmp.20 = lgetv %settings.1;
+        symbol [ settings %tmp.20 15 22 30 ];
+        symbol [ screenWidth %tmp.21 15 31 42 ];
+        %tmp.21 = getv %tmp.20 :screenWidth;
+        %tmp.22 = dup %tmp.17;
+        %tmp.23 = aputv %tmp.22 %tmp.19 %tmp.21;
+        %tmp.25 = const :height;
+        symbol [ height %tmp.25 16 13 19 const ];
+        %tmp.26 = 80;
+        %tmp.27 = dup %tmp.23;
+        %tmp.28 = aputv %tmp.27 %tmp.25 %tmp.26;
+        invoke %tmp.5 %tmp.6(%tmp.28);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 18 8 ]
+        %tmp.29 = lgetv %label;
+        symbol [ label %tmp.29 18 17 22 ];
+        symbol [ _label ? 18 8 14 ];
+        putv self :_label %tmp.29;
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 19 8 ]
+        %tmp.30 = lgetv %subLabel;
+        symbol [ subLabel %tmp.30 19 20 28 ];
+        symbol [ _subLabel ? 19 8 17 ];
+        putv self :_subLabel %tmp.30;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_10_61_20_4_stop:
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 22; @symbol_functiondef = [setLabel,22,13,21]; @symbol_param<0> = [label,22,22,27]; @symbol_param<0>_type<0> = [String,22,31,37]; ]
+    function setLabel(label as String) as Void {
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_22_47_24_4_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 23 8 ]
+        %tmp.1 = lgetv %label;
+        symbol [ label %tmp.1 23 17 22 ];
+        symbol [ _label ? 23 8 14 ];
+        putv self :_label %tmp.1;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_22_47_24_4_stop:
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 26; @symbol_functiondef = [setSubLabel,26,13,24]; @symbol_param<0> = [subLabel,26,25,33]; @symbol_param<0>_type<0> = [String,26,37,43]; ]
+    function setSubLabel(subLabel as String) as Void {
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_26_53_28_4_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 27 8 ]
+        %tmp.1 = lgetv %subLabel;
+        symbol [ subLabel %tmp.1 27 20 28 ];
+        symbol [ _subLabel ? 27 8 17 ];
+        putv self :_subLabel %tmp.1;
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_26_53_28_4_stop:
+    }
+    [ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 30; @symbol_functiondef = [draw,30,13,17]; @symbol_param<0> = [dc,30,18,20]; @symbol_param<0>_type<0> = [Graphics,30,24,32]; @symbol_param<0>_type<1> = [Dc,30,33,35]; ]
+    function draw(dc as Graphics.Dc) as Void {
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_30_45_49_4_start:
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 31 8 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_30_45_49_4_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_30_45_49_4_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 31 12 13 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 31 16 18 ];
+        symbol [ getWidth %tmp.2 31 19 27 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 31 12 13 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 32 8 ]
+        [ "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_30_45_49_4_start" "C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_30_45_49_4_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 32 12 13 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 32 16 18 ];
+        symbol [ getHeight %tmp.5 32 19 28 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 32 12 13 ];
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 35 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 35 8 10 ];
+        symbol [ setColor %tmp.8 35 11 19 ];
+        %tmp.8 = getv function %tmp.7 :setColor;
+        symbol [ Graphics %tmp.9 35 20 28 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.10 35 29 40 ];
+        %tmp.10 = getv %tmp.9 :COLOR_BLACK;
+        symbol [ Graphics %tmp.11 35 42 50 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.12 35 51 62 ];
+        %tmp.12 = getv %tmp.11 :COLOR_BLACK;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 36 8 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 36 8 10 ];
+        symbol [ fillRectangle %tmp.14 36 11 24 ];
+        %tmp.14 = getv function %tmp.13 :fillRectangle;
+        %tmp.15 = 0;
+        %tmp.16 = 0;
+        %tmp.17 = lgetv %w.1;
+        symbol [ w %tmp.17 36 31 32 ];
+        %tmp.18 = lgetv %h.2;
+        symbol [ h %tmp.18 36 34 35 ];
+        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.17, %tmp.18);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 39 8 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 39 8 10 ];
+        symbol [ setColor %tmp.20 39 11 19 ];
+        %tmp.20 = getv function %tmp.19 :setColor;
+        symbol [ Graphics %tmp.21 39 20 28 ];
+        %tmp.21 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.22 39 29 40 ];
+        %tmp.22 = getv %tmp.21 :COLOR_WHITE;
+        symbol [ Graphics %tmp.23 39 42 50 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.24 39 51 68 ];
+        %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+        invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 40 8 ]
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 40 8 10 ];
+        symbol [ drawText %tmp.26 40 11 19 ];
+        %tmp.26 = getv function %tmp.25 :drawText;
+        %tmp.27 = lgetv %w.1;
+        symbol [ w %tmp.27 40 20 21 ];
+        %tmp.28 = 2;
+        %tmp.29 = div %tmp.27 %tmp.28;
+        %tmp.30 = lgetv %h.2;
+        symbol [ h %tmp.30 40 27 28 ];
+        %tmp.31 = 2;
+        %tmp.32 = div %tmp.30 %tmp.31;
+        %tmp.33 = 12;
+        %tmp.34 = sub %tmp.32 %tmp.33;
+        symbol [ Graphics %tmp.35 40 39 47 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.36 40 48 58 ];
+        %tmp.36 = getv %tmp.35 :FONT_SMALL;
+        symbol [ _label %tmp.38 40 60 66 ];
+        %tmp.38 = getv ? :_label;
+        symbol [ Graphics %tmp.39 40 68 76 ];
+        %tmp.39 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.40 40 77 96 ];
+        %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.41 40 99 107 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.42 40 108 128 ];
+        %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_VCENTER;
+        %tmp.43 = bitor %tmp.40 %tmp.42;
+        invoke %tmp.25 %tmp.26(%tmp.29, %tmp.34, %tmp.36, %tmp.38, %tmp.43);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 43 8 ]
+        %tmp.44 = lgetv %dc;
+        symbol [ dc %tmp.44 43 8 10 ];
+        symbol [ setColor %tmp.45 43 11 19 ];
+        %tmp.45 = getv function %tmp.44 :setColor;
+        symbol [ Graphics %tmp.46 43 20 28 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.47 43 29 42 ];
+        %tmp.47 = getv %tmp.46 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.48 43 44 52 ];
+        %tmp.48 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.49 43 53 70 ];
+        %tmp.49 = getv %tmp.48 :COLOR_TRANSPARENT;
+        invoke %tmp.44 %tmp.45(%tmp.47, %tmp.49);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 44 8 ]
+        %tmp.50 = lgetv %dc;
+        symbol [ dc %tmp.50 44 8 10 ];
+        symbol [ drawText %tmp.51 44 11 19 ];
+        %tmp.51 = getv function %tmp.50 :drawText;
+        %tmp.52 = lgetv %w.1;
+        symbol [ w %tmp.52 44 20 21 ];
+        %tmp.53 = 2;
+        %tmp.54 = div %tmp.52 %tmp.53;
+        %tmp.55 = lgetv %h.2;
+        symbol [ h %tmp.55 44 27 28 ];
+        %tmp.56 = 2;
+        %tmp.57 = div %tmp.55 %tmp.56;
+        %tmp.58 = 14;
+        %tmp.59 = add %tmp.57 %tmp.58;
+        symbol [ Graphics %tmp.60 44 39 47 ];
+        %tmp.60 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.61 44 48 58 ];
+        %tmp.61 = getv %tmp.60 :FONT_XTINY;
+        symbol [ _subLabel %tmp.63 44 60 69 ];
+        %tmp.63 = getv ? :_subLabel;
+        symbol [ Graphics %tmp.64 44 71 79 ];
+        %tmp.64 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.65 44 80 99 ];
+        %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.66 44 102 110 ];
+        %tmp.66 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.67 44 111 131 ];
+        %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_VCENTER;
+        %tmp.68 = bitor %tmp.65 %tmp.67;
+        invoke %tmp.50 %tmp.51(%tmp.54, %tmp.59, %tmp.61, %tmp.63, %tmp.68);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 47 8 ]
+        %tmp.69 = lgetv %dc;
+        symbol [ dc %tmp.69 47 8 10 ];
+        symbol [ setColor %tmp.70 47 11 19 ];
+        %tmp.70 = getv function %tmp.69 :setColor;
+        symbol [ Graphics %tmp.71 47 20 28 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.72 47 29 42 ];
+        %tmp.72 = getv %tmp.71 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.73 47 44 52 ];
+        %tmp.73 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.74 47 53 70 ];
+        %tmp.74 = getv %tmp.73 :COLOR_TRANSPARENT;
+        invoke %tmp.69 %tmp.70(%tmp.72, %tmp.74);
+[ "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc" 48 8 ]
+        %tmp.75 = lgetv %dc;
+        symbol [ dc %tmp.75 48 8 10 ];
+        symbol [ drawLine %tmp.76 48 11 19 ];
+        %tmp.76 = getv function %tmp.75 :drawLine;
+        %tmp.77 = 0;
+        %tmp.78 = lgetv %h.2;
+        symbol [ h %tmp.78 48 23 24 ];
+        %tmp.79 = 1;
+        %tmp.80 = sub %tmp.78 %tmp.79;
+        %tmp.81 = lgetv %w.1;
+        symbol [ w %tmp.81 48 30 31 ];
+        %tmp.82 = lgetv %h.2;
+        symbol [ h %tmp.82 48 33 34 ];
+        %tmp.83 = 1;
+        %tmp.84 = sub %tmp.82 %tmp.83;
+        invoke %tmp.75 %tmp.76(%tmp.77, %tmp.80, %tmp.81, %tmp.84);
+C__Users_ryanh_OneDrive_Desktop_AntigravityCoding_GarminSuplimentTracker_source_SupplementItemDrawable_mc_30_45_49_4_stop:
+    }
+}
+[ @file = "C:\Users\ryanh\OneDrive\Desktop\AntigravityCoding\GarminSuplimentTracker\source\SupplementItemDrawable.mc"; @line = 1; ]
+<init> {
+}
